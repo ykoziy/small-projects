@@ -1,4 +1,5 @@
-small-projects
+#Small Projects
 ==============
 
-A repository for projects that don't deserve their own repository.
+* placeholder
+* more projects coming in future
