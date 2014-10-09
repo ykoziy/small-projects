@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Card Validation</title>
+  	<meta charset="UTF-8" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+  	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<nav class='navbar navbar-default'>
+  		<div class='container'>
+      		<div class="navbar-header">
+      		</div>
+    	</div>
+  	</nav>
+
+
+  	<div class="container">
+    	<div class='col-xs-12 col-sm-6 col-sm-offset-3'>
+      		<div class='page-header'>
+        		<h1>Order now</h1>
+      		</div> <!-- .page-header -->
+
+	      	<div class='panel'>
+		        <div class='panel-body'>
+		        	<form>
+			            <div class='form-group'>
+			            	<label>Credit card number:</label>
+			            	<div class='input-group'>
+			            		<input type="text" class='form-control' id='cardNum'>
+				                <div class='input-group-addon' id='cardType'></div>
+				            </div> <!-- .input-group -->
+			            </div> <!-- .form-group -->
+		            	<div class="form-group">
+		              		<label>Name on card:</label>
+		              		<input type="text" class='form-control'>
+		            	</div> <!-- .form-group -->
+			            <div class='clearfix'>
+			            	<div class="form-group form-group-mini">
+			                	<label>Expiry date:</label>
+			                	<input type='text' class='form-control'>
+			              	</div> <!-- .form-group .form-group-mini -->
+			              	<div class="form-group form-group-mini">
+			                	<label>CVV:</label>
+			                	<input type='text' class='form-control'>
+			              	</div> <!-- .form-group .form-group-mini -->
+			            </div> <!-- .clearfix -->
+		            	<br>
+		            	<p>
+		              		<button class='btn btn-primary'>Submit</button>
+		            	</p>
+		        	</form>
+		      	</div> <!-- .panel-body -->
+	    	</div> <!-- .panel -->
+  		</div> <!-- .col-xs-12 col-sm-6 .col-sm-offset-3 -->
+    </div> <!-- .container -->
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="js/validate.js"></script>  
+</body>
+</html>
