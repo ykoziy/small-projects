@@ -1,5 +1,5 @@
 #Simple To Do List
-==============
+----
 
 ![Demo](demo.gif)
 
