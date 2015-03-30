@@ -1,9 +1,6 @@
 body {
-	background: #fdfdfd; 
+	background: #fdfdfd;
 }
-/*.form-group-mini { width: 50%; float: left; padding: 0 10px; }
-.form-group-mini:first-child { padding-left: 0; }
-.form-group-mini:last-child { padding-right: 0; }*/
 #add { min-width: 90px; }
 #error-box { display: none;}
 .glyphicon-remove { color: #FF1919; }
